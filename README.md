@@ -1,8 +1,28 @@
-# Youtube topic researcher
+# Vidjest
 
-## Todo's
+This is yet another GTP YouTube video summarizer.
 
-- [ ] remove dependency on langchain
-    - Direct OpenAI summary call: https://hackernoon.com/openai-gpt-how-to-create-a-youtube-summary
-- [ ] add a chunking solution for the transcript ()
-    - *Invalid request error: This model's maximum context length is 4097 tokens, however you requested 11910 tokens (11654 in your prompt; 256 for the completion). Please reduce your prompt; or completion length.*
+I built this to get expereince with Streamlit and utilizing the OpenAI API.
+Feel free to extend for your own needs if you find it useful.
+
+## Usage
+
+
+```shell
+# Create a python environment with the following
+python -m venv .venv 
+
+# Or use Conda if that is your jam
+
+# Install python packages
+pip install -r requirements.txt
+
+
+streamlit run app.py
+```
+
+Note: You can add your API keys to the environment rather then inputing them in the UI.
+```shell
+mv dist.env .env
+```
+Ensure your IDE has support for .env files, then add your api keys to `.env`. and restart Streamlit
