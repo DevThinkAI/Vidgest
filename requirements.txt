@@ -1,0 +1,5 @@
+youtube-transcript-api
+google-api-python-client
+streamlit
+openai
+tiktoken

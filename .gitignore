@@ -1,0 +1,51 @@
+# local env files
+.env
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+env3/
+.venv/
+.venv3/
+
+# macOS
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.pyc
+
+# Testing
+.coverage
+.tox/
+
+# Sphinx documentation
+docs/_build/
+
+# PyInstaller
+*.spec
+
+# Others
+*.log
+*.swp
+*.swo
