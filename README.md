@@ -5,6 +5,8 @@ This is yet another GTP YouTube video summarizer.
 I built this to get expereince with Streamlit and utilizing the OpenAI API.
 Feel free to extend for your own needs if you find it useful.
 
+![](docs/img/vidgest%20ui.png)
+
 ## Usage
 
 
