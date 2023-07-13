@@ -28,3 +28,6 @@ Note: You can add your API keys to the environment rather then inputing them in 
 mv dist.env .env
 ```
 Ensure your IDE has support for .env files, then add your api keys to `.env`. and restart Streamlit
+
+### Want to learn more?
+My [weekly newsletter](https://devthinkai.beehiiv.com/) will keep you informed on Generative AI topics important to software developers (without all the hype)
